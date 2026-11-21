@@ -1,0 +1,2195 @@
+{
+ "pieces": {
+  "mycelium_seed_54360_20261117_212631.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:26:32",
+   "signature": null
+  },
+  "mycelium_seed_54480_20261117_212833.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:28:33",
+   "signature": null
+  },
+  "mycelium_seed_54600_20261117_213034.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:30:34",
+   "signature": null
+  },
+  "mycelium_seed_54720_20261117_213234.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:32:35",
+   "signature": null
+  },
+  "mycelium_seed_54840_20261117_213435.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:34:36",
+   "signature": null
+  },
+  "mycelium_seed_54960_20261117_213636.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:36:38",
+   "signature": null
+  },
+  "mycelium_seed_55080_20261117_213838.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:38:39",
+   "signature": null
+  },
+  "mycelium_seed_55200_20261117_214041.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:40:43",
+   "signature": null
+  },
+  "mycelium_seed_55320_20261117_214244.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:42:46",
+   "signature": null
+  },
+  "mycelium_seed_55440_20261117_214447.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:44:48",
+   "signature": null
+  },
+  "mycelium_seed_55560_20261117_214648.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:46:49",
+   "signature": null
+  },
+  "mycelium_seed_55680_20261117_214849.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:48:51",
+   "signature": null
+  },
+  "mycelium_seed_55800_20261117_215051.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:50:52",
+   "signature": null
+  },
+  "mycelium_seed_55920_20261117_215252.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:52:54",
+   "signature": null
+  },
+  "mycelium_seed_56040_20261117_215453.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:54:54",
+   "signature": null
+  },
+  "mycelium_seed_56160_20261117_215655.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:56:55",
+   "signature": null
+  },
+  "mycelium_seed_56280_20261117_215856.png": {
+   "cycle": null,
+   "created": "2026-11-18T03:58:57",
+   "signature": null
+  },
+  "mycelium_seed_56400_20261117_220057.png": {
+   "cycle": null,
+   "created": "2026-11-18T04:00:58",
+   "signature": null
+  },
+  "mycelium_seed_56520_20261117_220258.png": {
+   "cycle": null,
+   "created": "2026-11-18T04:02:59",
+   "signature": null
+  },
+  "mycelium_seed_56760_20261118_002417.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:24:18",
+   "signature": null
+  },
+  "mycelium_seed_56880_20261118_002618.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:26:19",
+   "signature": null
+  },
+  "mycelium_seed_57120_20261118_003021.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:30:22",
+   "signature": null
+  },
+  "mycelium_seed_57240_20261118_003221.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:32:22",
+   "signature": null
+  },
+  "mycelium_seed_57360_20261118_003423.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:34:24",
+   "signature": null
+  },
+  "mycelium_seed_57480_20261118_003624.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:36:25",
+   "signature": null
+  },
+  "mycelium_seed_57720_20261118_004026.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:40:27",
+   "signature": null
+  },
+  "mycelium_seed_57840_20261118_004227.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:42:28",
+   "signature": null
+  },
+  "mycelium_seed_57960_20261118_004428.png": {
+   "cycle": null,
+   "created": "2026-11-18T06:44:29",
+   "signature": null
+  },
+  "mycelium_seed_58200_20261118_015822.png": {
+   "cycle": null,
+   "created": "2026-11-18T07:58:22",
+   "signature": null
+  },
+  "mycelium_seed_58320_20261118_020022.png": {
+   "cycle": null,
+   "created": "2026-11-18T08:00:23",
+   "signature": null
+  },
+  "mycelium_seed_61800_20261118_025854.png": {
+   "cycle": null,
+   "created": "2026-11-18T08:58:55",
+   "signature": null
+  },
+  "mycelium_seed_61920_20261118_030055.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:00:56",
+   "signature": null
+  },
+  "mycelium_seed_62040_20261118_030255.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:02:56",
+   "signature": null
+  },
+  "mycelium_seed_62160_20261118_030456.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:04:57",
+   "signature": null
+  },
+  "mycelium_seed_62280_20261118_030657.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:06:58",
+   "signature": null
+  },
+  "mycelium_seed_62400_20261118_030858.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:08:59",
+   "signature": null
+  },
+  "mycelium_seed_62520_20261118_031059.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:11:00",
+   "signature": null
+  },
+  "mycelium_seed_62640_20261118_031300.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:13:01",
+   "signature": null
+  },
+  "mycelium_seed_62760_20261118_031501.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:15:02",
+   "signature": null
+  },
+  "mycelium_seed_62880_20261118_031701.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:17:02",
+   "signature": null
+  },
+  "mycelium_seed_63000_20261118_031902.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:19:03",
+   "signature": null
+  },
+  "mycelium_seed_63120_20261118_032104.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:21:04",
+   "signature": null
+  },
+  "mycelium_seed_63240_20261118_032304.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:23:05",
+   "signature": null
+  },
+  "mycelium_seed_63360_20261118_032505.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:25:06",
+   "signature": null
+  },
+  "mycelium_seed_63480_20261118_032706.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:27:07",
+   "signature": null
+  },
+  "mycelium_seed_63600_20261118_032907.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:29:08",
+   "signature": null
+  },
+  "mycelium_seed_63720_20261118_033107.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:31:08",
+   "signature": null
+  },
+  "mycelium_seed_63840_20261118_033308.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:33:09",
+   "signature": null
+  },
+  "mycelium_seed_63960_20261118_033509.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:35:10",
+   "signature": null
+  },
+  "mycelium_seed_64080_20261118_033710.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:37:11",
+   "signature": null
+  },
+  "mycelium_seed_64200_20261118_033911.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:39:12",
+   "signature": null
+  },
+  "mycelium_seed_64320_20261118_034112.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:41:13",
+   "signature": null
+  },
+  "mycelium_seed_64440_20261118_034313.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:43:14",
+   "signature": null
+  },
+  "mycelium_seed_64560_20261118_034513.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:45:14",
+   "signature": null
+  },
+  "mycelium_seed_64680_20261118_034714.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:47:15",
+   "signature": null
+  },
+  "mycelium_seed_64800_20261118_034915.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:49:16",
+   "signature": null
+  },
+  "mycelium_seed_64920_20261118_035116.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:51:17",
+   "signature": null
+  },
+  "mycelium_seed_65040_20261118_035317.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:53:18",
+   "signature": null
+  },
+  "mycelium_seed_65160_20261118_035518.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:55:19",
+   "signature": null
+  },
+  "mycelium_seed_65280_20261118_035719.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:57:20",
+   "signature": null
+  },
+  "mycelium_seed_65400_20261118_035920.png": {
+   "cycle": null,
+   "created": "2026-11-18T09:59:21",
+   "signature": null
+  },
+  "mycelium_seed_65520_20261118_040120.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:01:22",
+   "signature": null
+  },
+  "mycelium_seed_65640_20261118_040321.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:03:22",
+   "signature": null
+  },
+  "mycelium_seed_65760_20261118_040522.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:05:23",
+   "signature": null
+  },
+  "mycelium_seed_65880_20261118_040723.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:07:25",
+   "signature": null
+  },
+  "mycelium_seed_66000_20261118_040924.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:09:25",
+   "signature": null
+  },
+  "mycelium_seed_66120_20261118_041126.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:11:27",
+   "signature": null
+  },
+  "mycelium_seed_66240_20261118_041327.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:13:28",
+   "signature": null
+  },
+  "mycelium_seed_66360_20261118_041528.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:15:29",
+   "signature": null
+  },
+  "mycelium_seed_66480_20261118_041728.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:17:29",
+   "signature": null
+  },
+  "mycelium_seed_66600_20261118_041929.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:19:30",
+   "signature": null
+  },
+  "mycelium_seed_66720_20261118_042130.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:21:31",
+   "signature": null
+  },
+  "mycelium_seed_66840_20261118_042331.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:23:32",
+   "signature": null
+  },
+  "mycelium_seed_66960_20261118_042532.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:25:34",
+   "signature": null
+  },
+  "mycelium_seed_67080_20261118_042734.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:27:35",
+   "signature": null
+  },
+  "mycelium_seed_67200_20261118_042934.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:29:36",
+   "signature": null
+  },
+  "mycelium_seed_67320_20261118_043135.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:31:36",
+   "signature": null
+  },
+  "mycelium_seed_67440_20261118_043335.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:33:36",
+   "signature": null
+  },
+  "mycelium_seed_67560_20261118_043537.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:35:38",
+   "signature": null
+  },
+  "mycelium_seed_67680_20261118_043737.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:37:38",
+   "signature": null
+  },
+  "mycelium_seed_67800_20261118_043938.png": {
+   "cycle": null,
+   "created": "2026-11-18T10:39:39",
+   "signature": null
+  },
+  "mycelium_seed_73320_20261118_061225.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:12:26",
+   "signature": null
+  },
+  "mycelium_seed_73440_20261118_061426.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:14:27",
+   "signature": null
+  },
+  "mycelium_seed_73560_20261118_061627.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:16:28",
+   "signature": null
+  },
+  "mycelium_seed_73680_20261118_061828.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:18:29",
+   "signature": null
+  },
+  "mycelium_seed_73800_20261118_062030.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:20:32",
+   "signature": null
+  },
+  "mycelium_seed_73920_20261118_062233.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:22:35",
+   "signature": null
+  },
+  "mycelium_seed_74040_20261118_062435.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:24:37",
+   "signature": null
+  },
+  "mycelium_seed_74160_20261118_062639.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:26:40",
+   "signature": null
+  },
+  "mycelium_seed_74280_20261118_062842.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:28:44",
+   "signature": null
+  },
+  "mycelium_seed_74400_20261118_063044.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:30:46",
+   "signature": null
+  },
+  "mycelium_seed_74520_20261118_063246.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:32:47",
+   "signature": null
+  },
+  "mycelium_seed_74640_20261118_063447.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:34:48",
+   "signature": null
+  },
+  "mycelium_seed_74760_20261118_063649.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:36:50",
+   "signature": null
+  },
+  "mycelium_seed_74880_20261118_063850.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:38:51",
+   "signature": null
+  },
+  "mycelium_seed_75000_20261118_064051.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:40:52",
+   "signature": null
+  },
+  "mycelium_seed_75120_20261118_064253.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:42:53",
+   "signature": null
+  },
+  "mycelium_seed_75240_20261118_064454.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:44:55",
+   "signature": null
+  },
+  "mycelium_seed_75360_20261118_064655.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:46:56",
+   "signature": null
+  },
+  "mycelium_seed_75480_20261118_064856.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:48:57",
+   "signature": null
+  },
+  "mycelium_seed_75600_20261118_065058.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:50:58",
+   "signature": null
+  },
+  "mycelium_seed_75720_20261118_065259.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:53:00",
+   "signature": null
+  },
+  "mycelium_seed_75840_20261118_065500.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:55:01",
+   "signature": null
+  },
+  "mycelium_seed_75960_20261118_065702.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:57:03",
+   "signature": null
+  },
+  "mycelium_seed_76080_20261118_065903.png": {
+   "cycle": null,
+   "created": "2026-11-18T12:59:04",
+   "signature": null
+  },
+  "mycelium_seed_76200_20261118_070104.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:01:05",
+   "signature": null
+  },
+  "mycelium_seed_76320_20261118_070305.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:03:06",
+   "signature": null
+  },
+  "mycelium_seed_76440_20261118_070506.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:05:07",
+   "signature": null
+  },
+  "mycelium_seed_76560_20261118_070708.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:07:09",
+   "signature": null
+  },
+  "mycelium_seed_76680_20261118_070909.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:09:10",
+   "signature": null
+  },
+  "mycelium_seed_76800_20261118_071110.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:11:11",
+   "signature": null
+  },
+  "mycelium_seed_76920_20261118_071311.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:13:12",
+   "signature": null
+  },
+  "mycelium_seed_77040_20261118_071513.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:15:14",
+   "signature": null
+  },
+  "mycelium_seed_77160_20261118_071714.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:17:15",
+   "signature": null
+  },
+  "mycelium_seed_77280_20261118_071915.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:19:16",
+   "signature": null
+  },
+  "mycelium_seed_77400_20261118_072116.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:21:17",
+   "signature": null
+  },
+  "mycelium_seed_77520_20261118_072317.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:23:18",
+   "signature": null
+  },
+  "mycelium_seed_77640_20261118_072519.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:25:20",
+   "signature": null
+  },
+  "mycelium_seed_77760_20261118_072720.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:27:21",
+   "signature": null
+  },
+  "mycelium_seed_77880_20261118_072921.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:29:22",
+   "signature": null
+  },
+  "mycelium_seed_78000_20261118_073123.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:31:23",
+   "signature": null
+  },
+  "mycelium_seed_78120_20261118_073325.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:33:25",
+   "signature": null
+  },
+  "mycelium_seed_78240_20261118_073526.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:35:27",
+   "signature": null
+  },
+  "mycelium_seed_78360_20261118_073727.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:37:28",
+   "signature": null
+  },
+  "mycelium_seed_78480_20261118_073928.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:39:29",
+   "signature": null
+  },
+  "mycelium_seed_78600_20261118_074129.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:41:30",
+   "signature": null
+  },
+  "mycelium_seed_78720_20261118_074331.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:43:32",
+   "signature": null
+  },
+  "mycelium_seed_78840_20261118_074532.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:45:33",
+   "signature": null
+  },
+  "mycelium_seed_78960_20261118_074733.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:47:34",
+   "signature": null
+  },
+  "mycelium_seed_79080_20261118_074934.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:49:35",
+   "signature": null
+  },
+  "mycelium_seed_79200_20261118_075136.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:51:37",
+   "signature": null
+  },
+  "mycelium_seed_79320_20261118_075337.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:53:38",
+   "signature": null
+  },
+  "mycelium_seed_79440_20261118_075538.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:55:39",
+   "signature": null
+  },
+  "mycelium_seed_79560_20261118_075739.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:57:40",
+   "signature": null
+  },
+  "mycelium_seed_79680_20261118_075941.png": {
+   "cycle": null,
+   "created": "2026-11-18T13:59:42",
+   "signature": null
+  },
+  "mycelium_seed_79800_20261118_080142.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:01:43",
+   "signature": null
+  },
+  "mycelium_seed_79920_20261118_080343.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:03:44",
+   "signature": null
+  },
+  "mycelium_seed_80040_20261118_080544.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:05:45",
+   "signature": null
+  },
+  "mycelium_seed_80160_20261118_080746.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:07:47",
+   "signature": null
+  },
+  "mycelium_seed_80280_20261118_080947.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:09:48",
+   "signature": null
+  },
+  "mycelium_seed_80400_20261118_081148.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:11:49",
+   "signature": null
+  },
+  "mycelium_seed_80520_20261118_081350.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:13:51",
+   "signature": null
+  },
+  "mycelium_seed_80640_20261118_081552.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:15:53",
+   "signature": null
+  },
+  "mycelium_seed_80760_20261118_081753.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:17:54",
+   "signature": null
+  },
+  "mycelium_seed_80880_20261118_081954.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:19:55",
+   "signature": null
+  },
+  "mycelium_seed_81000_20261118_082156.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:21:56",
+   "signature": null
+  },
+  "mycelium_seed_81120_20261118_082357.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:23:58",
+   "signature": null
+  },
+  "mycelium_seed_81240_20261118_082558.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:25:59",
+   "signature": null
+  },
+  "mycelium_seed_81360_20261118_082759.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:28:00",
+   "signature": null
+  },
+  "mycelium_seed_81480_20261118_083000.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:30:01",
+   "signature": null
+  },
+  "mycelium_seed_81600_20261118_083201.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:32:02",
+   "signature": null
+  },
+  "mycelium_seed_81720_20261118_083403.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:34:03",
+   "signature": null
+  },
+  "mycelium_seed_81840_20261118_083604.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:36:05",
+   "signature": null
+  },
+  "mycelium_seed_81960_20261118_083805.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:38:06",
+   "signature": null
+  },
+  "mycelium_seed_82080_20261118_084007.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:40:08",
+   "signature": null
+  },
+  "mycelium_seed_82200_20261118_084208.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:42:09",
+   "signature": null
+  },
+  "mycelium_seed_82320_20261118_084409.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:44:10",
+   "signature": null
+  },
+  "mycelium_seed_82440_20261118_084610.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:46:11",
+   "signature": null
+  },
+  "mycelium_seed_82560_20261118_084811.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:48:12",
+   "signature": null
+  },
+  "mycelium_seed_82680_20261118_085013.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:50:14",
+   "signature": null
+  },
+  "mycelium_seed_82800_20261118_085214.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:52:15",
+   "signature": null
+  },
+  "mycelium_seed_82920_20261118_085415.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:54:16",
+   "signature": null
+  },
+  "mycelium_seed_83040_20261118_085617.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:56:18",
+   "signature": null
+  },
+  "mycelium_seed_83160_20261118_085818.png": {
+   "cycle": null,
+   "created": "2026-11-18T14:58:19",
+   "signature": null
+  },
+  "mycelium_seed_83280_20261118_090020.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:00:21",
+   "signature": null
+  },
+  "mycelium_seed_83400_20261118_090221.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:02:22",
+   "signature": null
+  },
+  "mycelium_seed_83520_20261118_090422.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:04:23",
+   "signature": null
+  },
+  "mycelium_seed_83640_20261118_090624.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:06:25",
+   "signature": null
+  },
+  "mycelium_seed_83760_20261118_090825.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:08:26",
+   "signature": null
+  },
+  "mycelium_seed_83880_20261118_091026.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:10:27",
+   "signature": null
+  },
+  "mycelium_seed_84000_20261118_091227.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:12:28",
+   "signature": null
+  },
+  "mycelium_seed_84120_20261118_091428.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:14:29",
+   "signature": null
+  },
+  "mycelium_seed_84240_20261118_091630.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:16:31",
+   "signature": null
+  },
+  "mycelium_seed_84360_20261118_091831.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:18:32",
+   "signature": null
+  },
+  "mycelium_seed_84480_20261118_092032.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:20:33",
+   "signature": null
+  },
+  "mycelium_seed_84600_20261118_092233.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:22:34",
+   "signature": null
+  },
+  "mycelium_seed_84720_20261118_092435.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:24:36",
+   "signature": null
+  },
+  "mycelium_seed_84840_20261118_092636.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:26:37",
+   "signature": null
+  },
+  "mycelium_seed_84960_20261118_092837.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:28:38",
+   "signature": null
+  },
+  "mycelium_seed_85080_20261118_093039.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:30:40",
+   "signature": null
+  },
+  "mycelium_seed_85200_20261118_093240.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:32:41",
+   "signature": null
+  },
+  "mycelium_seed_85320_20261118_093441.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:34:42",
+   "signature": null
+  },
+  "mycelium_seed_85440_20261118_093642.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:36:43",
+   "signature": null
+  },
+  "mycelium_seed_85560_20261118_093844.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:38:44",
+   "signature": null
+  },
+  "mycelium_seed_85680_20261118_094045.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:40:46",
+   "signature": null
+  },
+  "mycelium_seed_85800_20261118_094246.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:42:47",
+   "signature": null
+  },
+  "mycelium_seed_85920_20261118_094447.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:44:48",
+   "signature": null
+  },
+  "mycelium_seed_86040_20261118_094648.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:46:49",
+   "signature": null
+  },
+  "mycelium_seed_86160_20261118_094850.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:48:50",
+   "signature": null
+  },
+  "mycelium_seed_86280_20261118_095051.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:50:52",
+   "signature": null
+  },
+  "mycelium_seed_86400_20261118_095252.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:52:53",
+   "signature": null
+  },
+  "mycelium_seed_86520_20261118_095454.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:54:55",
+   "signature": null
+  },
+  "mycelium_seed_86640_20261118_095655.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:56:56",
+   "signature": null
+  },
+  "mycelium_seed_86760_20261118_095856.png": {
+   "cycle": null,
+   "created": "2026-11-18T15:58:57",
+   "signature": null
+  },
+  "mycelium_seed_86880_20261118_100057.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:00:58",
+   "signature": null
+  },
+  "mycelium_seed_87000_20261118_100258.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:02:59",
+   "signature": null
+  },
+  "mycelium_seed_87120_20261118_100500.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:05:01",
+   "signature": null
+  },
+  "mycelium_seed_87240_20261118_100701.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:07:02",
+   "signature": null
+  },
+  "mycelium_seed_87360_20261118_100902.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:09:03",
+   "signature": null
+  },
+  "mycelium_seed_87480_20261118_101103.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:11:04",
+   "signature": null
+  },
+  "mycelium_seed_87600_20261118_101304.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:13:05",
+   "signature": null
+  },
+  "mycelium_seed_87720_20261118_101506.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:15:07",
+   "signature": null
+  },
+  "mycelium_seed_87840_20261118_101707.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:17:08",
+   "signature": null
+  },
+  "mycelium_seed_87960_20261118_101908.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:19:09",
+   "signature": null
+  },
+  "mycelium_seed_88080_20261118_102109.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:21:10",
+   "signature": null
+  },
+  "mycelium_seed_88200_20261118_102310.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:23:11",
+   "signature": null
+  },
+  "mycelium_seed_88320_20261118_102512.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:25:13",
+   "signature": null
+  },
+  "mycelium_seed_88440_20261118_102713.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:27:14",
+   "signature": null
+  },
+  "mycelium_seed_88560_20261118_102914.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:29:15",
+   "signature": null
+  },
+  "mycelium_seed_88680_20261118_103115.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:31:16",
+   "signature": null
+  },
+  "mycelium_seed_88800_20261118_103317.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:33:18",
+   "signature": null
+  },
+  "mycelium_seed_88920_20261118_103518.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:35:19",
+   "signature": null
+  },
+  "mycelium_seed_89040_20261118_103719.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:37:20",
+   "signature": null
+  },
+  "mycelium_seed_89160_20261118_103920.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:39:21",
+   "signature": null
+  },
+  "mycelium_seed_89280_20261118_104122.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:41:22",
+   "signature": null
+  },
+  "mycelium_seed_89400_20261118_104323.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:43:24",
+   "signature": null
+  },
+  "mycelium_seed_89520_20261118_104524.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:45:25",
+   "signature": null
+  },
+  "mycelium_seed_89640_20261118_104725.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:47:26",
+   "signature": null
+  },
+  "mycelium_seed_89760_20261118_104927.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:49:28",
+   "signature": null
+  },
+  "mycelium_seed_89880_20261118_105128.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:51:28",
+   "signature": null
+  },
+  "mycelium_seed_90000_20261118_105329.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:53:30",
+   "signature": null
+  },
+  "mycelium_seed_90120_20261118_105530.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:55:31",
+   "signature": null
+  },
+  "mycelium_seed_90240_20261118_105731.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:57:32",
+   "signature": null
+  },
+  "mycelium_seed_90360_20261118_105933.png": {
+   "cycle": null,
+   "created": "2026-11-18T16:59:34",
+   "signature": null
+  },
+  "mycelium_seed_90480_20261118_110134.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:01:35",
+   "signature": null
+  },
+  "mycelium_seed_90600_20261118_110335.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:03:36",
+   "signature": null
+  },
+  "mycelium_seed_90720_20261118_110536.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:05:37",
+   "signature": null
+  },
+  "mycelium_seed_90840_20261118_110738.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:07:39",
+   "signature": null
+  },
+  "mycelium_seed_90960_20261118_110939.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:09:40",
+   "signature": null
+  },
+  "mycelium_seed_91080_20261118_111140.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:11:41",
+   "signature": null
+  },
+  "mycelium_seed_91200_20261118_111341.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:13:42",
+   "signature": null
+  },
+  "mycelium_seed_91320_20261118_111543.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:15:44",
+   "signature": null
+  },
+  "mycelium_seed_91440_20261118_111744.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:17:45",
+   "signature": null
+  },
+  "mycelium_seed_91560_20261118_111945.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:19:46",
+   "signature": null
+  },
+  "mycelium_seed_91680_20261118_112147.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:21:48",
+   "signature": null
+  },
+  "mycelium_seed_91800_20261118_112348.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:23:48",
+   "signature": null
+  },
+  "mycelium_seed_91920_20261118_112549.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:25:50",
+   "signature": null
+  },
+  "mycelium_seed_92040_20261118_112750.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:27:51",
+   "signature": null
+  },
+  "mycelium_seed_92160_20261118_112951.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:29:52",
+   "signature": null
+  },
+  "mycelium_seed_92280_20261118_113153.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:31:54",
+   "signature": null
+  },
+  "mycelium_seed_92400_20261118_113354.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:33:55",
+   "signature": null
+  },
+  "mycelium_seed_92520_20261118_113555.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:35:56",
+   "signature": null
+  },
+  "mycelium_seed_92640_20261118_113756.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:37:57",
+   "signature": null
+  },
+  "mycelium_seed_92760_20261118_113958.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:39:59",
+   "signature": null
+  },
+  "mycelium_seed_92880_20261118_114159.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:42:00",
+   "signature": null
+  },
+  "mycelium_seed_93000_20261118_114400.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:44:01",
+   "signature": null
+  },
+  "mycelium_seed_93120_20261118_114601.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:46:02",
+   "signature": null
+  },
+  "mycelium_seed_93240_20261118_114802.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:48:03",
+   "signature": null
+  },
+  "mycelium_seed_93360_20261118_115004.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:50:04",
+   "signature": null
+  },
+  "mycelium_seed_93480_20261118_115205.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:52:06",
+   "signature": null
+  },
+  "mycelium_seed_93600_20261118_115406.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:54:07",
+   "signature": null
+  },
+  "mycelium_seed_93720_20261118_115607.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:56:08",
+   "signature": null
+  },
+  "mycelium_seed_93840_20261118_115809.png": {
+   "cycle": null,
+   "created": "2026-11-18T17:58:10",
+   "signature": null
+  },
+  "mycelium_seed_93960_20261118_120010.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:00:11",
+   "signature": null
+  },
+  "mycelium_seed_94080_20261118_120211.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:02:12",
+   "signature": null
+  },
+  "mycelium_seed_94200_20261118_120412.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:04:13",
+   "signature": null
+  },
+  "mycelium_seed_94320_20261118_120614.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:06:15",
+   "signature": null
+  },
+  "mycelium_seed_94440_20261118_120815.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:08:16",
+   "signature": null
+  },
+  "mycelium_seed_94560_20261118_121017.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:10:17",
+   "signature": null
+  },
+  "mycelium_seed_94680_20261118_121217.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:12:18",
+   "signature": null
+  },
+  "mycelium_seed_94800_20261118_121419.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:14:20",
+   "signature": null
+  },
+  "mycelium_seed_94920_20261118_121620.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:16:21",
+   "signature": null
+  },
+  "mycelium_seed_95040_20261118_121821.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:18:22",
+   "signature": null
+  },
+  "mycelium_seed_95160_20261118_122022.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:20:23",
+   "signature": null
+  },
+  "mycelium_seed_95280_20261118_122223.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:22:24",
+   "signature": null
+  },
+  "mycelium_seed_95400_20261118_122425.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:24:26",
+   "signature": null
+  },
+  "mycelium_seed_95520_20261118_122626.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:26:27",
+   "signature": null
+  },
+  "mycelium_seed_95640_20261118_122827.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:28:28",
+   "signature": null
+  },
+  "mycelium_seed_95760_20261118_123028.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:30:29",
+   "signature": null
+  },
+  "mycelium_seed_95880_20261118_123230.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:32:31",
+   "signature": null
+  },
+  "mycelium_seed_96000_20261118_123431.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:34:32",
+   "signature": null
+  },
+  "mycelium_seed_96120_20261118_123632.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:36:33",
+   "signature": null
+  },
+  "mycelium_seed_96240_20261118_123834.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:38:34",
+   "signature": null
+  },
+  "mycelium_seed_96360_20261118_124035.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:40:36",
+   "signature": null
+  },
+  "mycelium_seed_96480_20261118_124236.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:42:37",
+   "signature": null
+  },
+  "mycelium_seed_96600_20261118_124437.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:44:38",
+   "signature": null
+  },
+  "mycelium_seed_96720_20261118_124638.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:46:39",
+   "signature": null
+  },
+  "mycelium_seed_96840_20261118_124840.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:48:40",
+   "signature": null
+  },
+  "mycelium_seed_96960_20261118_125104.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:51:05",
+   "signature": null
+  },
+  "mycelium_seed_97080_20261118_125305.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:53:06",
+   "signature": null
+  },
+  "mycelium_seed_97200_20261118_125506.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:55:07",
+   "signature": null
+  },
+  "mycelium_seed_97320_20261118_125708.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:57:08",
+   "signature": null
+  },
+  "mycelium_seed_97440_20261118_125909.png": {
+   "cycle": null,
+   "created": "2026-11-18T18:59:10",
+   "signature": null
+  },
+  "mycelium_seed_97560_20261118_130110.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:01:11",
+   "signature": null
+  },
+  "mycelium_seed_97680_20261118_130311.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:03:12",
+   "signature": null
+  },
+  "mycelium_seed_97800_20261118_130512.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:05:13",
+   "signature": null
+  },
+  "mycelium_seed_97920_20261118_130714.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:07:15",
+   "signature": null
+  },
+  "mycelium_seed_98040_20261118_130915.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:09:16",
+   "signature": null
+  },
+  "mycelium_seed_98160_20261118_131116.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:11:17",
+   "signature": null
+  },
+  "mycelium_seed_98280_20261118_131317.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:13:18",
+   "signature": null
+  },
+  "mycelium_seed_98400_20261118_131519.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:15:20",
+   "signature": null
+  },
+  "mycelium_seed_98520_20261118_131719.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:17:20",
+   "signature": null
+  },
+  "mycelium_seed_98640_20261118_131921.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:19:22",
+   "signature": null
+  },
+  "mycelium_seed_98760_20261118_132122.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:21:23",
+   "signature": null
+  },
+  "mycelium_seed_98880_20261118_132323.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:23:24",
+   "signature": null
+  },
+  "mycelium_seed_99000_20261118_132525.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:25:26",
+   "signature": null
+  },
+  "mycelium_seed_99120_20261118_132726.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:27:27",
+   "signature": null
+  },
+  "mycelium_seed_99240_20261118_132927.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:29:28",
+   "signature": null
+  },
+  "mycelium_seed_99360_20261118_133128.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:31:29",
+   "signature": null
+  },
+  "mycelium_seed_99480_20261118_133329.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:33:30",
+   "signature": null
+  },
+  "mycelium_seed_99600_20261118_133531.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:35:32",
+   "signature": null
+  },
+  "mycelium_seed_99720_20261118_133732.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:37:33",
+   "signature": null
+  },
+  "mycelium_seed_99840_20261118_133933.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:39:34",
+   "signature": null
+  },
+  "mycelium_seed_99960_20261118_134134.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:41:35",
+   "signature": null
+  },
+  "mycelium_seed_100080_20261118_134336.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:43:36",
+   "signature": null
+  },
+  "mycelium_seed_100200_20261118_134537.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:45:38",
+   "signature": null
+  },
+  "mycelium_seed_100320_20261118_134738.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:47:39",
+   "signature": null
+  },
+  "mycelium_seed_100440_20261118_134939.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:49:40",
+   "signature": null
+  },
+  "mycelium_seed_100560_20261118_135140.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:51:41",
+   "signature": null
+  },
+  "mycelium_seed_100680_20261118_135342.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:53:42",
+   "signature": null
+  },
+  "mycelium_seed_100800_20261118_135543.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:55:44",
+   "signature": null
+  },
+  "mycelium_seed_100920_20261118_135744.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:57:45",
+   "signature": null
+  },
+  "mycelium_seed_101040_20261118_135945.png": {
+   "cycle": null,
+   "created": "2026-11-18T19:59:46",
+   "signature": null
+  },
+  "mycelium_seed_101160_20261118_140146.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:01:47",
+   "signature": null
+  },
+  "mycelium_seed_101280_20261118_140348.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:03:49",
+   "signature": null
+  },
+  "mycelium_seed_101400_20261118_140549.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:05:50",
+   "signature": null
+  },
+  "mycelium_seed_101520_20261118_140750.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:07:51",
+   "signature": null
+  },
+  "mycelium_seed_101640_20261118_140951.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:09:52",
+   "signature": null
+  },
+  "mycelium_seed_101760_20261118_141152.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:11:53",
+   "signature": null
+  },
+  "mycelium_seed_101880_20261118_141354.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:13:54",
+   "signature": null
+  },
+  "mycelium_seed_102000_20261118_141555.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:15:56",
+   "signature": null
+  },
+  "mycelium_seed_102120_20261118_141756.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:17:57",
+   "signature": null
+  },
+  "mycelium_seed_102240_20261118_141957.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:19:58",
+   "signature": null
+  },
+  "mycelium_seed_102360_20261118_142159.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:21:59",
+   "signature": null
+  },
+  "mycelium_seed_102480_20261118_142359.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:24:00",
+   "signature": null
+  },
+  "mycelium_seed_102600_20261118_142601.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:26:01",
+   "signature": null
+  },
+  "mycelium_seed_102720_20261118_142802.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:28:03",
+   "signature": null
+  },
+  "mycelium_seed_102840_20261118_143003.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:30:04",
+   "signature": null
+  },
+  "mycelium_seed_102960_20261118_143204.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:32:05",
+   "signature": null
+  },
+  "mycelium_seed_103080_20261118_143406.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:34:07",
+   "signature": null
+  },
+  "mycelium_seed_103200_20261118_143607.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:36:08",
+   "signature": null
+  },
+  "mycelium_seed_103320_20261118_143808.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:38:09",
+   "signature": null
+  },
+  "mycelium_seed_103440_20261118_144009.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:40:10",
+   "signature": null
+  },
+  "mycelium_seed_103560_20261118_144210.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:42:11",
+   "signature": null
+  },
+  "mycelium_seed_103680_20261118_144412.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:44:13",
+   "signature": null
+  },
+  "mycelium_seed_103800_20261118_144613.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:46:14",
+   "signature": null
+  },
+  "mycelium_seed_103920_20261118_144814.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:48:15",
+   "signature": null
+  },
+  "mycelium_seed_104040_20261118_145015.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:50:16",
+   "signature": null
+  },
+  "mycelium_seed_104160_20261118_145216.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:52:17",
+   "signature": null
+  },
+  "mycelium_seed_104280_20261118_145417.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:54:18",
+   "signature": null
+  },
+  "mycelium_seed_104400_20261118_145619.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:56:20",
+   "signature": null
+  },
+  "mycelium_seed_104520_20261118_145820.png": {
+   "cycle": null,
+   "created": "2026-11-18T20:58:21",
+   "signature": null
+  },
+  "mycelium_seed_104640_20261118_150021.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:00:22",
+   "signature": null
+  },
+  "mycelium_seed_104760_20261118_150222.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:02:23",
+   "signature": null
+  },
+  "mycelium_seed_104880_20261118_150424.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:04:25",
+   "signature": null
+  },
+  "mycelium_seed_105000_20261118_150624.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:06:25",
+   "signature": null
+  },
+  "mycelium_seed_105120_20261118_150826.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:08:27",
+   "signature": null
+  },
+  "mycelium_seed_105240_20261118_151027.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:10:27",
+   "signature": null
+  },
+  "mycelium_seed_105360_20261118_151228.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:12:29",
+   "signature": null
+  },
+  "mycelium_seed_105480_20261118_151429.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:14:30",
+   "signature": null
+  },
+  "mycelium_seed_105600_20261118_151630.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:16:31",
+   "signature": null
+  },
+  "mycelium_seed_105720_20261118_151832.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:18:33",
+   "signature": null
+  },
+  "mycelium_seed_105840_20261118_152032.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:20:33",
+   "signature": null
+  },
+  "mycelium_seed_105960_20261118_152234.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:22:34",
+   "signature": null
+  },
+  "mycelium_seed_106080_20261118_152435.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:24:36",
+   "signature": null
+  },
+  "mycelium_seed_106200_20261118_152636.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:26:37",
+   "signature": null
+  },
+  "mycelium_seed_106320_20261118_152838.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:28:39",
+   "signature": null
+  },
+  "mycelium_seed_106440_20261118_153039.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:30:40",
+   "signature": null
+  },
+  "mycelium_seed_106560_20261118_153241.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:32:41",
+   "signature": null
+  },
+  "mycelium_seed_106680_20261118_153441.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:34:42",
+   "signature": null
+  },
+  "mycelium_seed_106800_20261118_153642.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:36:43",
+   "signature": null
+  },
+  "mycelium_seed_106920_20261118_153843.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:38:44",
+   "signature": null
+  },
+  "mycelium_seed_107040_20261118_154044.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:40:45",
+   "signature": null
+  },
+  "mycelium_seed_107160_20261118_154244.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:42:45",
+   "signature": null
+  },
+  "mycelium_seed_107280_20261118_154445.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:44:46",
+   "signature": null
+  },
+  "mycelium_seed_107400_20261118_154646.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:46:47",
+   "signature": null
+  },
+  "mycelium_seed_107520_20261118_154847.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:48:48",
+   "signature": null
+  },
+  "mycelium_seed_107640_20261118_155048.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:50:49",
+   "signature": null
+  },
+  "mycelium_seed_107760_20261118_155249.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:52:50",
+   "signature": null
+  },
+  "mycelium_seed_107880_20261118_155449.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:54:50",
+   "signature": null
+  },
+  "mycelium_seed_108000_20261118_155651.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:56:51",
+   "signature": null
+  },
+  "mycelium_seed_108120_20261118_155852.png": {
+   "cycle": null,
+   "created": "2026-11-18T21:58:52",
+   "signature": null
+  },
+  "mycelium_seed_108240_20261118_160052.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:00:53",
+   "signature": null
+  },
+  "mycelium_seed_108360_20261118_160253.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:02:53",
+   "signature": null
+  },
+  "mycelium_seed_108480_20261118_160453.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:04:54",
+   "signature": null
+  },
+  "mycelium_seed_108600_20261118_160655.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:06:55",
+   "signature": null
+  },
+  "mycelium_seed_108720_20261118_160855.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:08:56",
+   "signature": null
+  },
+  "mycelium_seed_108840_20261118_161056.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:10:57",
+   "signature": null
+  },
+  "mycelium_seed_108960_20261118_161256.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:12:57",
+   "signature": null
+  },
+  "mycelium_seed_109080_20261118_161458.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:14:59",
+   "signature": null
+  },
+  "mycelium_seed_109200_20261118_161659.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:16:59",
+   "signature": null
+  },
+  "mycelium_seed_109320_20261118_161859.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:19:00",
+   "signature": null
+  },
+  "mycelium_seed_109440_20261118_162100.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:21:01",
+   "signature": null
+  },
+  "mycelium_seed_109560_20261118_162301.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:23:02",
+   "signature": null
+  },
+  "mycelium_seed_109680_20261118_162501.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:25:02",
+   "signature": null
+  },
+  "mycelium_seed_109800_20261118_162702.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:27:03",
+   "signature": null
+  },
+  "mycelium_seed_109920_20261118_162903.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:29:04",
+   "signature": null
+  },
+  "mycelium_seed_110040_20261118_163104.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:31:05",
+   "signature": null
+  },
+  "mycelium_seed_110160_20261118_163306.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:33:06",
+   "signature": null
+  },
+  "mycelium_seed_110280_20261118_163506.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:35:07",
+   "signature": null
+  },
+  "mycelium_seed_110400_20261118_163707.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:37:08",
+   "signature": null
+  },
+  "mycelium_seed_110520_20261118_163908.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:39:09",
+   "signature": null
+  },
+  "mycelium_seed_110640_20261118_164109.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:41:09",
+   "signature": null
+  },
+  "mycelium_seed_110760_20261118_164309.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:43:10",
+   "signature": null
+  },
+  "mycelium_seed_110880_20261118_164510.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:45:11",
+   "signature": null
+  },
+  "mycelium_seed_111000_20261118_164711.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:47:12",
+   "signature": null
+  },
+  "mycelium_seed_111120_20261118_164912.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:49:13",
+   "signature": null
+  },
+  "mycelium_seed_111240_20261118_165112.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:51:13",
+   "signature": null
+  },
+  "mycelium_seed_111360_20261118_165314.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:53:15",
+   "signature": null
+  },
+  "mycelium_seed_111480_20261118_165515.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:55:16",
+   "signature": null
+  },
+  "mycelium_seed_111600_20261118_165715.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:57:16",
+   "signature": null
+  },
+  "mycelium_seed_111720_20261118_165916.png": {
+   "cycle": null,
+   "created": "2026-11-18T22:59:17",
+   "signature": null
+  },
+  "mycelium_seed_111840_20261118_170117.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:01:18",
+   "signature": null
+  },
+  "mycelium_seed_111960_20261118_170317.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:03:18",
+   "signature": null
+  },
+  "mycelium_seed_112080_20261118_170518.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:05:19",
+   "signature": null
+  },
+  "mycelium_seed_112200_20261118_170719.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:07:20",
+   "signature": null
+  },
+  "mycelium_seed_112320_20261118_170920.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:09:21",
+   "signature": null
+  },
+  "mycelium_seed_112440_20261118_171121.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:11:22",
+   "signature": null
+  },
+  "mycelium_seed_112560_20261118_171321.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:13:22",
+   "signature": null
+  },
+  "mycelium_seed_112680_20261118_171522.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:15:23",
+   "signature": null
+  },
+  "mycelium_seed_112800_20261118_171723.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:17:24",
+   "signature": null
+  },
+  "mycelium_seed_112920_20261118_171924.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:19:25",
+   "signature": null
+  },
+  "mycelium_seed_113040_20261118_172125.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:21:26",
+   "signature": null
+  },
+  "mycelium_seed_113160_20261118_172326.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:23:27",
+   "signature": null
+  },
+  "mycelium_seed_113280_20261118_172526.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:25:27",
+   "signature": null
+  },
+  "mycelium_seed_113400_20261118_172727.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:27:28",
+   "signature": null
+  },
+  "mycelium_seed_113520_20261118_172928.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:29:29",
+   "signature": null
+  },
+  "mycelium_seed_113640_20261118_173129.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:31:30",
+   "signature": null
+  },
+  "mycelium_seed_113760_20261118_173329.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:33:30",
+   "signature": null
+  },
+  "mycelium_seed_113880_20261118_173530.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:35:31",
+   "signature": null
+  },
+  "mycelium_seed_114000_20261118_173731.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:37:32",
+   "signature": null
+  },
+  "mycelium_seed_114120_20261118_173932.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:39:33",
+   "signature": null
+  },
+  "mycelium_seed_114240_20261118_174133.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:41:34",
+   "signature": null
+  },
+  "mycelium_seed_114360_20261118_174334.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:43:35",
+   "signature": null
+  },
+  "mycelium_seed_114480_20261118_174534.png": {
+   "cycle": null,
+   "created": "2026-11-18T23:45:35",
+   "signature": null
+  },
+  "mycelium_seed_114600_20261118_233001.png": {
+   "cycle": null,
+   "created": "2026-11-19T05:30:02",
+   "signature": null
+  },
+  "mycelium_seed_114720_20261118_233202.png": {
+   "cycle": null,
+   "created": "2026-11-19T05:32:03",
+   "signature": null
+  },
+  "mycelium_seed_117000_20261121_164659.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:47:01",
+   "signature": null
+  },
+  "mycelium_seed_117120_20261121_164922.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:49:23",
+   "signature": null
+  },
+  "mycelium_seed_117240_20261121_165123.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:51:24",
+   "signature": null
+  },
+  "mycelium_seed_117360_20261121_165325.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:53:26",
+   "signature": null
+  },
+  "mycelium_seed_117480_20261121_165525.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:55:26",
+   "signature": null
+  },
+  "mycelium_seed_117600_20261121_165726.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:57:27",
+   "signature": null
+  },
+  "mycelium_seed_117720_20261121_165927.png": {
+   "cycle": null,
+   "created": "2026-11-21T22:59:29",
+   "signature": null
+  },
+  "mycelium_seed_117840_20261121_170128.png": {
+   "cycle": null,
+   "created": "2026-11-21T23:01:29",
+   "signature": null
+  },
+  "mycelium_seed_117960_20261121_170329.png": {
+   "cycle": null,
+   "created": "2026-11-21T23:03:30",
+   "signature": null
+  },
+  "mycelium_seed_118080_20261121_170529.png": {
+   "cycle": null,
+   "created": "2026-11-21T23:05:31",
+   "signature": null
+  },
+  "mycelium_seed_118200_20261121_170731.png": {
+   "cycle": null,
+   "created": "2026-11-21T23:07:32",
+   "signature": null
+  }
+ },
+ "count": 438
+}
