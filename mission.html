@@ -1,0 +1,160 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MYCELIUM — mission control</title>
+<style>
+:root{--red:#ff2244;--teal:#14e0c8;--bg:#04060b;--panel:#0a0e16;--line:#1a2233;--dim:#5a6478}
+*{box-sizing:border-box}
+body{background:var(--bg);color:#dfe3ea;font:12px/1.5 'Segoe UI',system-ui,sans-serif;margin:0}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(55% 40% at 50% -5%,rgba(255,34,68,.07),transparent 65%)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:12px 20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.brand{font-size:13px;letter-spacing:.4em;color:var(--red);font-weight:600}
+.nav{display:flex;gap:14px;font-size:10px;letter-spacing:.15em}
+.nav a{color:var(--dim);text-decoration:none;text-transform:uppercase}
+.nav a:hover{color:var(--teal)}
+.pill{display:flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.15em;
+  border:1px solid var(--line);border-radius:20px;padding:4px 12px;color:var(--dim)}
+.dot{width:8px;height:8px;border-radius:50%;background:#2dd4a7;
+  box-shadow:0 0 8px #2dd4a7;animation:pulse 2s infinite}
+.dot.stale{background:var(--red);box-shadow:0 0 8px var(--red);animation:none}
+@keyframes pulse{50%{opacity:.35}}
+.wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:12px;padding:14px;max-width:1500px;margin:auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:12px 14px;min-width:0}
+.card h2{font-size:9px;letter-spacing:.28em;color:var(--dim);margin:0 0 10px;
+  font-weight:600;text-transform:uppercase}
+.wide{grid-column:1/-1}
+#feed{width:100%;border-radius:8px;display:block;background:#05070c;aspect-ratio:16/9;object-fit:cover}
+.vitals{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:10px}
+.v{background:#060910;border:1px solid #141b2a;border-radius:7px;padding:8px 10px}
+.v b{display:block;font-size:17px;color:var(--teal);font-weight:600}
+.v span{font-size:8.5px;letter-spacing:.16em;color:var(--dim);text-transform:uppercase}
+.bar-row{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:10px;color:#8d96ab}
+.bar-row label{width:118px;flex-shrink:0;letter-spacing:.05em}
+.track{flex:1;height:5px;background:#131a29;border-radius:3px;overflow:hidden}
+.fill{height:100%;background:linear-gradient(90deg,var(--red),var(--teal));
+  border-radius:3px;transition:width .8s ease}
+.bv{width:34px;text-align:right;color:#c8cfdd;font-size:10px}
+.spark{width:100%;height:44px;display:block}
+table{width:100%;border-collapse:collapse;font-size:11px}
+td{padding:3px 4px;border-bottom:1px solid #121826;color:#8d96ab}
+td:last-child{text-align:right;color:#dfe3ea}
+.genes{display:flex;gap:3px;align-items:flex-end;height:54px;padding-top:4px}
+.gene{flex:1;background:linear-gradient(180deg,var(--teal),rgba(20,224,200,.15));
+  border-radius:2px 2px 0 0;min-height:2px;transition:height .8s}
+.tag{font-size:9px;color:var(--teal);border:1px solid rgba(20,224,200,.35);
+  border-radius:4px;padding:1px 6px;letter-spacing:.12em}
+.on{color:#2dd4a7}.off{color:var(--red)}
+.thumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.thumbs img{height:74px;border-radius:6px;border:1px solid var(--line);flex-shrink:0}
+.big{font-size:26px;color:#fff;font-weight:600}
+.unit{font-size:11px;color:var(--dim)}
+footer{text-align:center;color:#333c4e;font-size:9px;letter-spacing:.2em;padding:14px}
+a{color:var(--teal)}
+@media(max-width:1000px){.wrap{grid-template-columns:1fr}}
+</style></head><body>
+<div class="top">
+  <div class="brand">MYCELIUM · MISSION CONTROL</div>
+  <div class="nav">
+    <a href="./">live view</a>
+    <a href="https://dr-ianX.github.io/mycelium/" target="_blank">galeria</a>
+    <a href="https://dr-ianX.github.io/mycelium/collect.html" target="_blank">tienda</a>
+  </div>
+  <div class="pill"><span class="dot" id="alive"></span><span id="alivetxt">—</span></div>
+</div>
+<div class="wrap">
+  <div class="card" style="grid-row:span 2">
+    <h2>organismo en vivo</h2>
+    <img id="feed" src="/latest.png">
+    <div class="vitals" id="vitals"></div>
+  </div>
+  <div class="card"><h2>cognicion</h2><div id="cog"></div>
+    <canvas class="spark" id="sparkRes" width="600" height="88"></canvas></div>
+  <div class="card"><h2>expresion</h2><div id="exp"></div>
+    <canvas class="spark" id="sparkTempo" width="600" height="88"></canvas></div>
+  <div class="card"><h2>especie activa <span class="tag" id="spTag"></span></h2>
+    <div class="genes" id="genes"></div>
+    <table id="census" style="margin-top:8px"></table></div>
+  <div class="card"><h2>on-chain · polygon</h2>
+    <div class="big" id="nftN">—</div>
+    <table id="chain"></table></div>
+  <div class="card"><h2>daemons</h2><table id="daemons"></table></div>
+  <div class="card wide"><h2>artefactos recientes</h2><div class="thumbs" id="thumbs"></div></div>
+</div>
+<footer>organismo artificial autonomo · dr-ianX · actualizando cada 3s</footer>
+<script>
+const HIST={res:[],tempo:[]},HMAX=90;
+function spark(id,data,max,color){
+  const c=document.getElementById(id),x=c.getContext('2d'),w=c.width,h=c.height;
+  x.clearRect(0,0,w,h);x.strokeStyle='#141b2a';x.beginPath();
+  for(let i=1;i<4;i++){x.moveTo(0,h*i/4);x.lineTo(w,h*i/4)}x.stroke();
+  if(data.length<2)return;
+  x.strokeStyle=color;x.lineWidth=1.6;x.beginPath();
+  data.forEach((v,i)=>{const px=i/(HMAX-1)*w,py=h-4-(v/max)*(h-10);
+    i?x.lineTo(px,py):x.moveTo(px,py)});
+  x.stroke();
+  const lv=data[data.length-1],lx=(data.length-1)/(HMAX-1)*w,
+        ly=h-4-(lv/max)*(h-10);
+  x.fillStyle=color;x.beginPath();x.arc(lx,ly,3,0,7);x.fill();
+}
+function bars(el,obj,labels){
+  document.getElementById(el).innerHTML=Object.keys(labels).map(k=>{
+    const v=obj[k]||0;
+    return `<div class="bar-row"><label>${labels[k]}</label>
+      <div class="track"><div class="fill" style="width:${(v*100).toFixed(0)}%"></div></div>
+      <span class="bv">${v.toFixed(2)}</span></div>`;
+  }).join('');
+}
+async function tick(){
+  let s;try{s=await(await fetch('status.json?v='+Date.now())).json()}catch(e){return}
+  const a=s.meta,cy=s.cycle;
+  const age=Date.now()/1000-(s.generated||0);
+  const alive=s.daemons['organismo (node)']&&age<20*60;
+  document.getElementById('alive').className='dot'+(alive?'':' stale');
+  document.getElementById('alivetxt').textContent=alive
+    ?('CICLO '+cy.toLocaleString()+' · VIVO'+(age>30?' · hace '+Math.round(age/60)+'m':''))
+    :'DETENIDO · snapshot hace '+Math.round(age/60)+'m';
+  if(s.recent&&s.recent[0])document.getElementById('feed').src='art/'+s.recent[0];
+  const V=[['resonancia',a.resonance?.toFixed(3)],['arousal',a.arousal?.toFixed(2)],
+    ['tempo',a.tempo?a.tempo.toFixed(0)+' <span class="unit">bpm</span>':'—'],
+    ['novelty',a.novelty?.toFixed(2)],['brightness',a.brightness?.toFixed(2)],
+    ['density',a.density?.toFixed(2)],['seccion',a.section],
+    ['corazon',(a.hr||0)+' <span class="unit">bpm</span>']];
+  document.getElementById('vitals').innerHTML=
+    V.map(([l,v])=>`<div class="v"><b>${v??'—'}</b><span>${l}</span></div>`).join('');
+  bars('cog',s.core,{explorationPressure:'exploracion',stability:'estabilidad',
+    curiosity:'curiosidad',memoryWeight:'memoria',noveltySeeking:'novelty seeking'});
+  bars('exp',s.expr,{harmonicDensity:'densidad armonica',
+    rhythmicComplexity:'compl. ritmica',timbreBrightness:'brillo timbrico',
+    dynamicRange:'rango dinamico',patternPersistence:'persist. patron'});
+  HIST.res.push(a.resonance||0);HIST.tempo.push(a.tempo||120);
+  if(HIST.res.length>HMAX)HIST.res.shift();
+  if(HIST.tempo.length>HMAX)HIST.tempo.shift();
+  spark('sparkRes',HIST.res,1,'#ff2244');
+  spark('sparkTempo',HIST.tempo,180,'#14e0c8');
+  const sp=s.species,act=sp.list.find(x=>x.id===sp.currentId)||{};
+  document.getElementById('spTag').textContent=
+    '#'+sp.currentId+' · gen'+(act.generation??'?')+' · fit '+(act.fitness||0).toFixed(2);
+  document.getElementById('genes').innerHTML=
+    (act.genes||[]).map(g=>`<div class="gene" style="height:${(g*100).toFixed(0)}%"></div>`).join('');
+  document.getElementById('census').innerHTML=
+    '<tr><td>poblacion</td><td>'+sp.list.length+' especies · '+sp.births+' nacidas</td></tr>'+
+    sp.list.slice().sort((x,y)=>y.fitness-x.fitness).slice(0,6).map(x=>
+      `<tr><td>${x.id===sp.currentId?'▸ ':''}#${x.id} gen${x.generation}</td>
+       <td>fit ${x.fitness.toFixed(2)} · ${x.windows}w</td></tr>`).join('');
+  document.getElementById('nftN').textContent=
+    s.chain.stills+s.chain.av+' NFTs';
+  document.getElementById('chain').innerHTML=
+    `<tr><td>stills</td><td>${s.chain.stills}</td></tr>
+     <tr><td>audiovisuales</td><td>${s.chain.av}</td></tr>
+     <tr><td>gas minter</td><td>${s.chain.gas}</td></tr>
+     <tr><td>artefactos</td><td>${s.captures} · ${s.clips} clips</td></tr>`;
+  document.getElementById('daemons').innerHTML=
+    Object.entries(s.daemons).map(([k,v])=>
+      `<tr><td>${k}</td><td class="${v?'on':'off'}">${v?'ON':'OFF'}</td></tr>`).join('');
+  document.getElementById('thumbs').innerHTML=
+    s.recent.map(n=>`<a href="art/${n}" target="_blank"><img src="art/${n}" loading="lazy"></a>`).join('');
+}
+tick();setInterval(tick,3000);
+</script></body></html>
