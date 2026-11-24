@@ -62,15 +62,16 @@ async function load(){
   const g=document.getElementById('grid');g.innerHTML='';
   for(const id of Object.keys(prices).sort((a,b)=>b-a)){
     const info=prices[id];
-    let live=0n;
-    try{live=await roSale.price(id)}catch(e){}
-    const avail=live>0n;
+    let live=0n, readOk=true;
+    try{live=await roSale.price(id)}catch(e){readOk=false}
+    // sold solo si la lectura CONFIRMA 0; si falla el RPC, confiar en el registro
+    const avail = readOk ? (live>0n) : (info.price_pol>0);
     const card=document.createElement('div');
     card.className='card'+(avail?'':' sold');
     card.innerHTML=`<img src="${info.img}" loading="lazy">
       <div class="m"><span>#${id}</span>
-      ${avail?`<span class="p">${ethers.formatEther(live)} POL</span>
-      <button onclick="buy(${id},'${ethers.formatEther(live)}')">COLLECT</button>`
+      ${avail?`<span class="p">${readOk?ethers.formatEther(live):info.price_pol} POL</span>
+      <button onclick="buy(${id},'${readOk?ethers.formatEther(live):info.price_pol}')">COLLECT</button>`
       :'<span class="p">sold</span>'}</div>`;
     g.appendChild(card);
   }
