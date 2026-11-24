@@ -21,7 +21,7 @@ a{color:#14e0c8}
 <h1>M Y C E L I U M</h1>
 <div class="sub">autonomous artificial organism · on-chain collection · <a href="./">gallery</a></div>
 <div id="wallet"><button id="conn" onclick="connect()">CONNECT WALLET</button></div>
-<div id="status"></div>
+<div id="status"></div><div style="text-align:center;margin:6px"><button onclick="load()">REFRESH</button></div>
 <div class="grid" id="grid"></div>
 <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
 <script>
@@ -76,5 +76,5 @@ async function load(){
     g.appendChild(card);
   }
 }
-load();setInterval(load,60000);
+load();
 </script></body></html>
