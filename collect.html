@@ -2,35 +2,67 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MYCELIUM — collect</title>
 <style>
-body{background:#060608;color:#dfe3ea;font:13px/1.5 'Segoe UI',system-ui,sans-serif;margin:0}
-h1{font-size:14px;letter-spacing:.5em;color:#ff2244;text-align:center;margin:26px 0 2px}
-.sub{color:#4d5566;text-align:center;font-size:11px;letter-spacing:.15em;margin-bottom:18px}
-#wallet{text-align:center;margin-bottom:18px}
-button{background:#ff2244;color:#fff;border:0;border-radius:6px;padding:8px 18px;
-  font:600 12px 'Segoe UI';letter-spacing:.1em;cursor:pointer}
-button:disabled{background:#3a4356;cursor:default}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;padding:12px}
-.card{background:#0b0e14;border:1px solid #1c2230;border-radius:8px;overflow:hidden}
-.card img,.card video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;background:#0b0e14}
-.card .m{padding:9px 11px;display:flex;justify-content:space-between;align-items:center}
-.card .p{color:#14e0c8;font-weight:600}
-.sold{opacity:.45}
-#status{text-align:center;color:#8d96ab;font-size:11px;min-height:16px}
-a{color:#14e0c8}
+:root{--red:#ff2244;--teal:#14e0c8;--bg:#040507;--panel:#0b0e15;--line:#1a2030;--dim:#5a6478}
+*{box-sizing:border-box}
+body{background:var(--bg);color:#dfe3ea;font:13px/1.55 'Segoe UI',system-ui,sans-serif;margin:0}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(60% 45% at 50% -5%,rgba(255,34,68,.10),transparent 65%),
+             radial-gradient(45% 35% at 85% 110%,rgba(20,224,200,.07),transparent 60%)}
+header{text-align:center;padding:56px 16px 30px;position:relative}
+h1{font-size:clamp(20px,4.5vw,34px);letter-spacing:.55em;color:var(--red);margin:0 0 10px;
+   font-weight:600;text-indent:.55em;text-shadow:0 0 40px rgba(255,34,68,.35)}
+.sub{color:var(--dim);font-size:11px;letter-spacing:.3em;text-transform:uppercase}
+.sub a{color:var(--teal);text-decoration:none}
+.stats{display:flex;gap:34px;justify-content:center;margin:26px 0 6px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat b{display:block;font-size:20px;color:#fff;font-weight:600}
+.stat span{font-size:10px;letter-spacing:.2em;color:var(--dim);text-transform:uppercase}
+.bar{display:flex;justify-content:center;align-items:center;gap:14px;padding:14px 0 26px}
+button{background:var(--red);color:#fff;border:0;border-radius:8px;padding:10px 22px;
+  font:600 12px 'Segoe UI';letter-spacing:.12em;cursor:pointer;transition:.2s}
+button:hover{background:#ff4060;box-shadow:0 0 24px rgba(255,34,68,.4)}
+button:disabled{background:#2a3140;cursor:default;box-shadow:none}
+.ghost{background:transparent;border:1px solid var(--line);color:#8d96ab}
+.ghost:hover{border-color:var(--teal);color:var(--teal);box-shadow:none}
+#status{text-align:center;color:#8d96ab;font-size:11px;min-height:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:20px;
+  padding:8px 26px 40px;max-width:1500px;margin:auto}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:#2c3a55;
+  box-shadow:0 14px 40px rgba(0,0,0,.55),0 0 30px rgba(20,224,200,.06)}
+.card img,.card video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;background:#05070c}
+.card .m{padding:12px 14px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card .id{color:#9aa3b8;font-size:12px;letter-spacing:.08em}
+.card .tag{font-size:9px;letter-spacing:.15em;color:var(--teal);border:1px solid rgba(20,224,200,.35);
+  border-radius:4px;padding:2px 6px;text-transform:uppercase}
+.card .p{color:var(--teal);font-weight:600;font-size:14px;white-space:nowrap}
+.card button{padding:8px 16px;font-size:11px}
+.sold{opacity:.4}
+.sold:hover{transform:none;box-shadow:none}
+footer{text-align:center;color:#333c4e;font-size:10px;letter-spacing:.15em;padding:26px}
+footer a{color:#4d5566}
 </style></head><body>
+<header>
 <h1>M Y C E L I U M</h1>
-<div class="sub">autonomous artificial organism · on-chain collection · <a href="./">gallery</a></div>
-<div id="wallet"><button id="conn" onclick="connect()">CONNECT WALLET</button></div>
-<div id="status"></div><div style="text-align:center;margin:6px"><button onclick="load()">REFRESH</button></div>
+<div class="sub">autonomous artificial organism · living collection on polygon · <a href="./">gallery</a></div>
+<div class="stats" id="stats"></div>
+</header>
+<div class="bar">
+<button id="conn" onclick="connect()">CONNECT WALLET</button>
+<button class="ghost" onclick="load()">↻ REFRESH</button>
+</div>
+<div id="status"></div>
 <div class="grid" id="grid"></div>
+<footer>organismo artificial autónomo · contrato <a href="https://polygonscan.com/address/0xed74CbdB0e6883AE5ab38067AdD290C6Ee4AB2D8" target="_blank">0xed74…B2D8</a> · royalties 5% · dr-ianX</footer>
 <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
 <script>
 const SALE="0x410B6876Ffe8D7f4110329a8C0B37805f74CFE43";
 const ABI=["function buy(uint256) payable","function price(uint256) view returns(uint256)"];
 const RPCS=["https://polygon.drpc.org","https://polygon-bor-rpc.publicnode.com","https://rpc.ankr.com/polygon","https://polygon-rpc.com"];
 let provider,signer,acct,sale;
-// staticNetwork: sin deteccion de red = sin retry infinito cuando un
-// firewall/AV bloquea los RPCs. quorum 1: el primero que responda gana.
+// staticNetwork: sin deteccion de red = sin retry infinito si un
+// firewall/AV bloquea los RPCs. quorum 1: gana el primero que responda.
 const ro=new ethers.FallbackProvider(
   RPCS.map(u=>new ethers.JsonRpcProvider(u,137,{staticNetwork:true})),1);
 const roSale=new ethers.Contract(SALE,ABI,ro);
@@ -56,7 +88,7 @@ async function buy(id,pol){
     const tx=await sale.buy(id,{value:ethers.parseEther(String(pol))});
     st('confirmando en Polygon… '+tx.hash.slice(0,14));
     await tx.wait();
-    st('¡coleccionado! el organismo es tuyo');
+    st('¡coleccionado! una pieza del organismo es tuya');
     setTimeout(load,2000);
   }catch(e){st('cancelado o fallo');}
 }
@@ -66,8 +98,9 @@ function mediaHtml(info){
     : `<img src="${info.ipfs||info.img}" loading="lazy" onerror="this.onerror=null;this.src='${info.img}'">`;
 }
 function cardHtml(id,pol,info){
+  const tag=info.video?'<span class="tag">audiovisual</span>':'';
   return mediaHtml(info)+
-    `<div class="m"><span>#${id}</span>
+    `<div class="m"><span class="id">#${id} ${tag}</span>
     <span class="p">${pol} POL</span>
     <button onclick="buy(${id},'${pol}')">COLLECT</button></div>`;
 }
@@ -78,9 +111,13 @@ async function load(){
   catch(e){st('no pude leer prices.json');return}
   const g=document.getElementById('grid');g.innerHTML='';
   const ids=Object.keys(prices).sort((a,b)=>b-a);
+  const priced=ids.filter(id=>(prices[id].price_pol||0)>0);
+  const floor=priced.length?Math.min(...priced.map(id=>prices[id].price_pol)):0;
+  document.getElementById('stats').innerHTML=
+    `<div class="stat"><b>${ids.length}</b><span>piezas</span></div>
+     <div class="stat"><b>${floor||'—'}</b><span>floor POL</span></div>
+     <div class="stat"><b>${ids.filter(id=>prices[id].video).length}</b><span>audiovisuales</span></div>`;
   const cards={};
-  // render inmediato con precio del registro — la lectura on-chain
-  // llega despues y corrige (sold/precio exacto)
   for(const id of ids){
     const info=prices[id];
     const avail=(info.price_pol||0)>0;
@@ -88,13 +125,12 @@ async function load(){
     card.className='card'+(avail?'':' sold');
     card.innerHTML=avail
       ? cardHtml(id,info.price_pol,info)
-      : mediaHtml(info)+`<div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
+      : mediaHtml(info)+`<div class="m"><span class="id">#${id}</span><span class="p">sold</span></div>`;
     g.appendChild(card);cards[id]=card;
   }
   st('');
-  // lectura on-chain en paralelo, timeout 7s por pieza; si los RPCs
-  // estan bloqueados queda el precio del registro (comprar con
-  // MetaMask funciona igual: usa su propio RPC)
+  // lectura on-chain en paralelo con timeout; si el RPC esta bloqueado
+  // queda el precio del registro (MetaMask compra con su propio RPC)
   await Promise.allSettled(ids.map(async id=>{
     try{
       const live=await Promise.race([
@@ -104,8 +140,8 @@ async function load(){
       card.classList.toggle('sold',!avail);
       card.innerHTML=avail
         ? cardHtml(id,pol,info)
-        : mediaHtml(info)+`<div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
-    }catch(e){/* registro queda */}
+        : mediaHtml(info)+`<div class="m"><span class="id">#${id}</span><span class="p">sold</span></div>`;
+    }catch(e){}
   }));
 }
 load();
