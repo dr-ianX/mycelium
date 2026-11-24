@@ -173,5 +173,60 @@
   "price_pol": 62.5,
   "img": "art/mycelium_seed_111240_20261118_165112.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/Qmbe3MaUrGXXMgRJ4KmHw6siVHvL9Z5zE2tXpcw6zcV5hR"
+ },
+ "36": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_127320_20261123_232731.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmXggSK6VgKQwSYAmLjoUp9p6y2xCRVcXLH5E3Dp4FEsVy"
+ },
+ "37": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_129840_20261124_000954.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/Qmd1R72zdbq1pN9HnzTRFT4uvEQ52pHhopnq2XMXH3Js49"
+ },
+ "38": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_128760_20261123_235145.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmPP5G8FFNSj3EHGzjcWbMpVumVi1KBWVSLFeEUx7mpWZ3"
+ },
+ "39": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_128040_20261123_233936.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmUpAEfYV7jWARFx1eo7uLp5XeiYJhVMEsLyLvTUmYNnyA"
+ },
+ "40": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_88680_20261118_103115.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmRajyzsGcUXZc7yv7a5XNa1Ue6NJ52GwSyY5JJaNJCvAD"
+ },
+ "41": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_85920_20261118_094447.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmaoH5aCdNPEDrqdiytMitWnepq9cJubVajaPPunHh2EPb"
+ },
+ "42": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_120240_20261123_212637.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmWcgjGotbBqQRcG4PHmcUvXtwCPgiB14tbELdvQS9UYaG"
+ },
+ "43": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_73800_20261118_062030.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmacYJMQgNUjUKQifbSRw9Q5kYi4vFQ43YSUnQwZMn2oD3"
+ },
+ "44": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_97200_20261118_125506.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmQGfd89S1dM5XgcN45MjxPPjcSF5B2GpvBKqhaFVU1rsv"
+ },
+ "45": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_91560_20261118_111945.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmUUPo2JBA1BHSqAW4Tv5PFkDJUX2RJb9dDqEWjX3Tis8e"
+ },
+ "47": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmZM35H2vt96Zdycg8VamZbbzN5nzUmsCyEAFeJ5nWco4H",
+  "video": "https://gateway.pinata.cloud/ipfs/QmV7hTehzU199sZJV7e4ULwggYTjJMLZTZMVr4jyCfZRHz"
  }
 }

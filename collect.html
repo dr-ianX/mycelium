@@ -11,7 +11,7 @@ button{background:#ff2244;color:#fff;border:0;border-radius:6px;padding:8px 18px
 button:disabled{background:#3a4356;cursor:default}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;padding:12px}
 .card{background:#0b0e14;border:1px solid #1c2230;border-radius:8px;overflow:hidden}
-.card img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;background:#0b0e14}
+.card img,.card video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover;background:#0b0e14}
 .card .m{padding:9px 11px;display:flex;justify-content:space-between;align-items:center}
 .card .p{color:#14e0c8;font-weight:600}
 .sold{opacity:.45}
@@ -60,9 +60,14 @@ async function buy(id,pol){
     setTimeout(load,2000);
   }catch(e){st('cancelado o fallo');}
 }
-function cardHtml(id,pol,img,fallback){
-  return `<img src="${img}" loading="lazy" onerror="this.onerror=null;this.src='${fallback}'">
-    <div class="m"><span>#${id}</span>
+function mediaHtml(info){
+  return info.video
+    ? `<video src="${info.video}" poster="${info.img||''}" muted loop autoplay playsinline></video>`
+    : `<img src="${info.ipfs||info.img}" loading="lazy" onerror="this.onerror=null;this.src='${info.img}'">`;
+}
+function cardHtml(id,pol,info){
+  return mediaHtml(info)+
+    `<div class="m"><span>#${id}</span>
     <span class="p">${pol} POL</span>
     <button onclick="buy(${id},'${pol}')">COLLECT</button></div>`;
 }
@@ -82,9 +87,8 @@ async function load(){
     const card=document.createElement('div');
     card.className='card'+(avail?'':' sold');
     card.innerHTML=avail
-      ? cardHtml(id,info.price_pol,info.ipfs||info.img,info.img)
-      : `<img src="${info.ipfs||info.img}" loading="lazy" onerror="this.onerror=null;this.src='${info.img}'">
-         <div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
+      ? cardHtml(id,info.price_pol,info)
+      : mediaHtml(info)+`<div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
     g.appendChild(card);cards[id]=card;
   }
   st('');
@@ -99,9 +103,8 @@ async function load(){
       const avail=live>0n, pol=ethers.formatEther(live), info=prices[id], card=cards[id];
       card.classList.toggle('sold',!avail);
       card.innerHTML=avail
-        ? cardHtml(id,pol,info.ipfs||info.img,info.img)
-        : `<img src="${info.ipfs||info.img}" loading="lazy" onerror="this.onerror=null;this.src='${info.img}'">
-           <div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
+        ? cardHtml(id,pol,info)
+        : mediaHtml(info)+`<div class="m"><span>#${id}</span><span class="p">sold</span></div>`;
     }catch(e){/* registro queda */}
   }));
 }
