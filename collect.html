@@ -49,8 +49,8 @@ footer a{color:#4d5566}
 <div class="stats" id="stats"></div>
 </header>
 <div class="bar">
-<button id="conn" onclick="connect()">CONNECT WALLET</button>
-<button class="ghost" onclick="load()">↻ REFRESH</button>
+<button id="conn">CONNECT WALLET</button>
+<button class="ghost" id="ref">↻ REFRESH</button>
 </div>
 <div id="status"></div>
 <div class="grid" id="grid"></div>
@@ -90,20 +90,46 @@ async function buy(id,pol){
     await tx.wait();
     st('¡coleccionado! una pieza del organismo es tuya');
     setTimeout(load,2000);
-  }catch(e){st('cancelado o fallo');}
+  }catch(e){
+    const m=(e&&e.message||'').toLowerCase();
+    st(m.includes('insufficient')?'te faltan POL para esa pieza':'cancelado o fallo');
+  }
+}
+const GWS=["https://gateway.pinata.cloud/ipfs/","https://cloudflare-ipfs.com/ipfs/","https://ipfs.io/ipfs/"];
+function cid(url){return url?url.split('/ipfs/').pop():null}
+function imgHtml(info){
+  const c=cid(info.ipfs);
+  const chain=JSON.stringify(c?GWS.map(g=>g+c).concat([info.img]):[info.img]);
+  return `<img src="${info.ipfs||info.img}" loading="lazy" data-chain='${chain}'>`;
 }
 function mediaHtml(info){
   return info.video
     ? `<video src="${info.video}" poster="${info.img||''}" muted loop autoplay playsinline></video>`
-    : `<img src="${info.ipfs||info.img}" loading="lazy" onerror="this.onerror=null;this.src='${info.img}'">`;
+    : imgHtml(info);
 }
 function cardHtml(id,pol,info){
   const tag=info.video?'<span class="tag">audiovisual</span>':'';
   return mediaHtml(info)+
     `<div class="m"><span class="id">#${id} ${tag}</span>
     <span class="p">${pol} POL</span>
-    <button onclick="buy(${id},'${pol}')">COLLECT</button></div>`;
+    <button data-buy="${id}:${pol}">COLLECT</button></div>`;
 }
+// fallback de imagenes por cadena de gateways (captura: error no hace bubble)
+const grid=document.getElementById('grid');
+grid.addEventListener('error',e=>{
+  const img=e.target;
+  if(img.tagName!=='IMG'||!img.dataset.chain)return;
+  const ch=JSON.parse(img.dataset.chain),i=(+img.dataset.i||0)+1;
+  img.dataset.i=i;
+  if(i<ch.length)img.src=ch[i];
+},true);
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button');
+  if(!b)return;
+  if(b.id==='conn')connect();
+  else if(b.id==='ref')load();
+  else if(b.dataset.buy){const[id,pol]=b.dataset.buy.split(':');buy(id,pol)}
+});
 async function load(){
   st('cargando…');
   let prices;
