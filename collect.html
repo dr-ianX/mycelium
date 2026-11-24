@@ -27,9 +27,9 @@ a{color:#14e0c8}
 <script>
 const SALE="0x410B6876Ffe8D7f4110329a8C0B37805f74CFE43";
 const ABI=["function buy(uint256) payable","function price(uint256) view returns(uint256)"];
-const RPC="https://polygon-rpc.com";
+const RPCS=["https://polygon.drpc.org","https://polygon-bor-rpc.publicnode.com","https://rpc.ankr.com/polygon","https://polygon-rpc.com"];
 let provider,signer,acct,sale;
-const ro=new ethers.JsonRpcProvider(RPC);
+const ro=new ethers.FallbackProvider(RPCS.map(u=>new ethers.JsonRpcProvider(u)));
 const roSale=new ethers.Contract(SALE,ABI,ro);
 const st=(t)=>document.getElementById('status').textContent=t;
 async function connect(){
