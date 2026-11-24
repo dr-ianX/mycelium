@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MYCELIUM — collect</title>
+<style>
+body{background:#060608;color:#dfe3ea;font:13px/1.5 'Segoe UI',system-ui,sans-serif;margin:0}
+h1{font-size:14px;letter-spacing:.5em;color:#ff2244;text-align:center;margin:26px 0 2px}
+.sub{color:#4d5566;text-align:center;font-size:11px;letter-spacing:.15em;margin-bottom:18px}
+#wallet{text-align:center;margin-bottom:18px}
+button{background:#ff2244;color:#fff;border:0;border-radius:6px;padding:8px 18px;
+  font:600 12px 'Segoe UI';letter-spacing:.1em;cursor:pointer}
+button:disabled{background:#3a4356;cursor:default}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;padding:12px}
+.card{background:#0b0e14;border:1px solid #1c2230;border-radius:8px;overflow:hidden}
+.card img{width:100%;display:block}
+.card .m{padding:9px 11px;display:flex;justify-content:space-between;align-items:center}
+.card .p{color:#14e0c8;font-weight:600}
+.sold{opacity:.45}
+#status{text-align:center;color:#8d96ab;font-size:11px;min-height:16px}
+a{color:#14e0c8}
+</style></head><body>
+<h1>M Y C E L I U M</h1>
+<div class="sub">autonomous artificial organism · on-chain collection · <a href="./">gallery</a></div>
+<div id="wallet"><button id="conn" onclick="connect()">CONNECT WALLET</button></div>
+<div id="status"></div>
+<div class="grid" id="grid"></div>
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+<script>
+const SALE="0x410B6876Ffe8D7f4110329a8C0B37805f74CFE43";
+const ABI=["function buy(uint256) payable","function price(uint256) view returns(uint256)"];
+const RPC="https://polygon-rpc.com";
+let provider,signer,acct,sale;
+const ro=new ethers.JsonRpcProvider(RPC);
+const roSale=new ethers.Contract(SALE,ABI,ro);
+const st=(t)=>document.getElementById('status').textContent=t;
+async function connect(){
+  if(!window.ethereum){st('instala MetaMask');return}
+  provider=new ethers.BrowserProvider(window.ethereum);
+  await provider.send("eth_requestAccounts",[]);
+  const net=await provider.getNetwork();
+  if(Number(net.chainId)!==137){
+    try{await window.ethereum.request({method:'wallet_switchEthereumChain',params:[{chainId:'0x89'}]})}
+    catch(e){st('cambia a la red Polygon en MetaMask');return}
+  }
+  signer=await provider.getSigner();acct=await signer.getAddress();
+  sale=new ethers.Contract(SALE,ABI,signer);
+  document.getElementById('conn').textContent=acct.slice(0,6)+"…"+acct.slice(-4);
+  st('conectado — Polygon');
+}
+async function buy(id,pol){
+  if(!sale){st('conecta tu wallet primero');return}
+  st('firmando compra…');
+  try{
+    const tx=await sale.buy(id,{value:ethers.parseEther(String(pol))});
+    st('confirmando en Polygon… '+tx.hash.slice(0,14));
+    await tx.wait();
+    st('¡coleccionado! el organismo es tuyo');
+    setTimeout(load,2000);
+  }catch(e){st('cancelado o fallo');}
+}
+async function load(){
+  const prices=await (await fetch('prices.json')).json();
+  const g=document.getElementById('grid');g.innerHTML='';
+  for(const id of Object.keys(prices).sort((a,b)=>b-a)){
+    const info=prices[id];
+    let live=0n;
+    try{live=await roSale.price(id)}catch(e){}
+    const avail=live>0n;
+    const card=document.createElement('div');
+    card.className='card'+(avail?'':' sold');
+    card.innerHTML=`<img src="${info.img}" loading="lazy">
+      <div class="m"><span>#${id}</span>
+      ${avail?`<span class="p">${ethers.formatEther(live)} POL</span>
+      <button onclick="buy(${id},'${ethers.formatEther(live)}')">COLLECT</button>`
+      :'<span class="p">sold</span>'}</div>`;
+    g.appendChild(card);
+  }
+}
+load();setInterval(load,60000);
+</script></body></html>
