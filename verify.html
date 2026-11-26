@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MYCELIUM · verificar provenance</title>
+<style>
+body{background:#040507;color:#dfe3ea;font:13px/1.55 'Segoe UI',system-ui,sans-serif;margin:0;
+  display:flex;flex-direction:column;align-items:center;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;
+  background:radial-gradient(60% 45% at 50% -5%,rgba(255,34,68,.10),transparent 65%),
+             radial-gradient(45% 35% at 85% 110%,rgba(20,224,200,.07),transparent 60%)}
+header{text-align:center;padding:56px 16px 20px}
+h1{font-size:clamp(18px,4vw,30px);letter-spacing:.55em;color:#ff2244;margin:0 0 8px;
+   font-weight:600;text-indent:.55em;text-shadow:0 0 40px rgba(255,34,68,.35)}
+.sub{color:#5a6478;font-size:11px;letter-spacing:.3em;text-transform:uppercase;margin-bottom:22px}
+.sub a{color:#14e0c8;text-decoration:none}
+.card{background:#0b0e15;border:1px solid #1a2030;border-radius:12px;padding:26px;
+  max-width:640px;width:92%;margin-bottom:20px}
+input[type=text]{width:100%;background:#060910;border:1px solid #1a2233;border-radius:8px;
+  color:#dfe3ea;padding:12px;font:12px monospace;margin-bottom:12px}
+.drop{border:1.5px dashed #2c3a55;border-radius:10px;padding:26px;text-align:center;
+  color:#5a6478;font-size:11px;letter-spacing:.15em;cursor:pointer}
+.drop.over{border-color:#14e0c8;color:#14e0c8}
+.res{margin-top:16px;padding:16px;border-radius:8px;font-size:12px;display:none;white-space:pre-wrap;word-break:break-all}
+.ok{background:rgba(20,224,200,.08);border:1px solid rgba(20,224,200,.35);display:block}
+.bad{background:rgba(255,34,68,.08);border:1px solid rgba(255,34,68,.4);display:block}
+.dim{color:#5a6478}
+footer{color:#333c4e;text-align:center;font-size:10px;padding:26px;letter-spacing:.2em}
+a{color:#14e0c8}
+</style></head><body>
+<header><h1>M Y C E L I U M</h1>
+<div class="sub">verificador de provenance · <a href="index.html">galería</a> · <a href="collect.html">collect</a></div></header>
+<div class="card">
+  <div class="dim" style="margin-bottom:14px">Cada pieza lleva una firma SHA-256 encadenada:
+  firma = sha256(firma_anterior + sha256(imagen)). Cualquier alteración rompe la cadena.
+  Pega el nombre de la pieza o suelta el PNG para verificar.</div>
+  <input type="text" id="nm" placeholder="mycelium_seed_104760_20261118_150222.png">
+  <div class="drop" id="drop">o arrastra aquí el archivo PNG de la pieza</div>
+  <input type="file" id="fi" accept="image/png" style="display:none">
+  <div class="res" id="res"></div>
+</div>
+<div class="card dim" id="head">cargando manifiesto…</div>
+<footer>provenance: <a href="manifest.json">manifest.json</a> · dr-ianX</footer>
+<script>
+let MAN=null;
+const res=document.getElementById('res');
+const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
+const sha=async b=>hex(await crypto.subtle.digest('SHA-256',b));
+const enc=s=>new TextEncoder().encode(s);
+fetch('manifest.json').then(r=>r.json()).then(m=>{
+  MAN=m;
+  document.getElementById('head').innerHTML=
+    `manifiesto cargado: <b style="color:#14e0c8">${m.count||Object.keys(m.pieces).length}</b> piezas firmadas ·
+     cabeza de cadena <b style="color:#14e0c8">${(m.chain||'').slice(0,16)}…</b>`;
+}).catch(()=>{document.getElementById('head').textContent='no se pudo cargar manifest.json';});
+function show(okk,msg){res.className='res '+(okk?'ok':'bad');res.innerHTML=msg;}
+async function verify(name,file){
+  if(!MAN)return show(false,'manifiesto no cargado');
+  const keys=Object.keys(MAN.pieces);
+  const i=keys.indexOf(name);
+  if(i<0)return show(false,`✗ "${name}" no existe en el registro de provenance.`);
+  const e=MAN.pieces[name];
+  let out=`pieza: ${name}\nciclo: ${e.cycle}\ncreada: ${e.created}\nfirma: ${e.signature}\n\n`;
+  if(file){
+    const fh=await sha(await file.arrayBuffer());
+    const prev=i>0?MAN.pieces[keys[i-1]].signature:'';
+    const calc=await sha(enc(prev+fh));
+    out+=`sha256(imagen): ${fh}\nfirma anterior: ${prev||'(génesis)'}\nfirma recalculada: ${calc}\n\n`;
+    out+=calc===e.signature?'✓ CADENA VÁLIDA — pieza auténtica':'✗ LA CADENA NO COINCIDE — archivo alterado o no es esta pieza';
+    show(calc===e.signature,out);
+  }else{
+    out+='✓ la pieza existe en el registro — suelta el PNG para verificación completa de cadena';
+    show(true,out);
+  }
+}
+document.getElementById('nm').oninput=e=>{
+  const v=e.target.value.trim();if(v.length>10)verify(v,null);
+};
+const drop=document.getElementById('drop'),fi=document.getElementById('fi');
+drop.onclick=()=>fi.click();
+fi.onchange=()=>{const f=fi.files[0];if(f)verify(f.name,f);};
+drop.ondragover=e=>{e.preventDefault();drop.classList.add('over');};
+drop.ondragleave=()=>drop.classList.remove('over');
+drop.ondrop=e=>{e.preventDefault();drop.classList.remove('over');
+  const f=e.dataTransfer.files[0];if(f)verify(f.name,f);};
+</script></body></html>
