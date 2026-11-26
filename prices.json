@@ -384,6 +384,36 @@
   "img": "art/mycelium_seed_64920_20261118_035116.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmPKuFLy4x5Spu7NC1TUCgKGfwTf2rJhbjTWQSnaZRngzM"
  },
+ "82": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_84960_20261118_092837.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmcXPHB7CSSmXa7FkrbCrx2a57wiEUfb2WFq2D9HstnyTd"
+ },
+ "83": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_99360_20261118_133128.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmRZXFhX6ztL9kroFWJ6zFqhcUBQb3aEtYDXr8VA2EdP66"
+ },
+ "84": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_100200_20261118_134537.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmPeZFomN6iv7crnqyXwbsY3jCyafrSshNus5Qt74E6JXR"
+ },
+ "85": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_65400_20261118_035920.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmV4rZJ1fHLFVa1RKcd7PEjdC7inHW5yaR7JxumDzDHpuj"
+ },
+ "86": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_117480_20261121_165525.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmaEGC7ZGwEyPurjJtDx4EHK94Cs8gdgvDikji3Ws4KHwa"
+ },
+ "87": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_63360_20261118_032505.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmR1kVtAapWGbMcePi2E3hpaBk5NijwUdcP2iasFVfJpCD"
+ },
  "47": {
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmZM35H2vt96Zdycg8VamZbbzN5nzUmsCyEAFeJ5nWco4H",
@@ -398,5 +428,15 @@
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmW9LpZAdvBjrdRaq4VBaYQXvvaDvDTZPgThPmn7FirhbJ",
   "video": "https://gateway.pinata.cloud/ipfs/Qmb3qZr2ovHXZJL7PTvdPuwvXFwacKsWJqXpKwHNNE3HQV"
+ },
+ "88": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmbyfXzPaxKAx1qsZrUmehyrQH8Q3ShahA3cJvdvcV8eH3",
+  "video": "https://gateway.pinata.cloud/ipfs/QmdjCtV4aExoC48rHjj6ga1kssJ8EexAFsBCceNKkbryNk"
+ },
+ "89": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmQPQBHS33RRJ9npPyny4HEkq9rhFuKwP25Mkj1vQh13ST",
+  "video": "https://gateway.pinata.cloud/ipfs/QmPdukaVzxx832jK7x3GNnmccNTtXGQokMjH3t6ujRZTBX"
  }
 }
