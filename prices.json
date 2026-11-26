@@ -414,6 +414,56 @@
   "img": "art/mycelium_seed_63360_20261118_032505.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmR1kVtAapWGbMcePi2E3hpaBk5NijwUdcP2iasFVfJpCD"
  },
+ "100": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_121680_20261123_215055.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmQtWiSgziGj7DLWyKVTdqYgGnLc3vxcRQVWEMVArutWH4"
+ },
+ "101": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_110880_20261118_164510.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmbnuwWRMboXhnT4wMA1zaNVRB67kFR3LadMjakJRjjSbL"
+ },
+ "102": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_98880_20261118_132323.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmWvZiqHT3RGu4KXvKfficyW38a81P536trSUdcGMUQ5dj"
+ },
+ "103": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_76080_20261118_065903.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmXWcXLiJwTprUzqqWAqmpBaD1Tx8sKUzdBv5P6fWCPSen"
+ },
+ "104": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_83280_20261118_090020.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmXQecJWRpaXqhKqvD8dmCdyaC1UoC2XQqVc1BtrX2h1s3"
+ },
+ "105": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_98160_20261118_131116.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmYQainKiHHn39Fo1whbMqEpidFyvgWuEmbuZaYL19f1f6"
+ },
+ "106": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_87120_20261118_100500.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmdS8TySueQH8LAM1RoU22fBNGU3BBu4cHUsGcVSk1KG2H"
+ },
+ "107": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_128520_20261123_234741.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmUgW4XviaYSx36qvSB4JZ3oU5MW2NxwXMk9Mi6QwMmM4J"
+ },
+ "108": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_102840_20261118_143003.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/Qmb1S8y5xmTyDSMtmCYRMtgwzTSQi5dQ7KyPs21EogxUa2"
+ },
+ "109": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_121080_20261123_214043.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/Qmet5vqoowsJvRhSLS5Xm7xeUwMSvvYzyNUSr7kKJc9vEv"
+ },
  "47": {
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmZM35H2vt96Zdycg8VamZbbzN5nzUmsCyEAFeJ5nWco4H",
@@ -488,5 +538,15 @@
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmfPzJS3qWjYzdLZiAPpyHBn51zGYVvtSfzG4uaYxs9r52",
   "video": "https://gateway.pinata.cloud/ipfs/QmYucqFTJ8ocBRVzGX95Yt6g2jAuKRdhb2qnbio2xBbzj5"
+ },
+ "110": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmWwnU3oH1wP8dRNvVRyiZPFSivFPpazbiR6mqp3ZRboXH",
+  "video": "https://gateway.pinata.cloud/ipfs/QmaNQVwytcr1srwUeLH1HafDTQku15gjr6d2nNk8FCtve1"
+ },
+ "111": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmcEp21E8UyZyeb9azuz8QDhVsgdFsibaTt9b3Vy3dmKno",
+  "video": "https://gateway.pinata.cloud/ipfs/QmU3o5GaevWwf6dkB8puhcSD9w31jnnZLzqACsQCZ7h36u"
  }
 }
