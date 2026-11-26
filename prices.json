@@ -5,52 +5,52 @@
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmV97GhfQV4UTBbM3e82GDmvw66sVpCkkpkDxrumUtXr33"
  },
  "2": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_82800_20261118_085214.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmQ2DHowbKDeZwRsK7c2JX7iQj4taHQBT7xR9Nvcxfn85t"
  },
  "3": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_63120_20261118_032104.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmUphWm4dpZRuDWUPiFWGKHtqikimzzHyz5WHr7XZvBB6G"
  },
  "4": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_107520_20261118_154847.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmfLBAqDHvu1D5suUeQJVSaQzCe7T8SvT4xjqYJpgmt1mj"
  },
  "5": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_89160_20261118_103920.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmcY7wbjHix1abAeL2eQKmisGsotKM2TBACx4YesV86ZaU"
  },
  "6": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_100920_20261118_135744.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmQdvHmRY65gy736ocR1YuUQE17XQdukDheip7rE4ycQkm"
  },
  "7": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_92160_20261118_112951.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmWy7fkeys4hPm6ptC3GgyqXPKT4EcqjEeZpmSoSiGcDr5"
  },
  "8": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_83040_20261118_085617.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmV1ZqumQoPjwc7KR2yXJ35JQsNiaw3PLXaPhGp1si1HKP"
  },
  "9": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_74760_20261118_063649.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmWpF2omwnDA5EnPfaWQwrvyYz3KXfxKQmyJSAocXeRbdg"
  },
  "10": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_75120_20261118_064253.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmeZ7MKaVKoZHimWddGteudNxX1d7GJtw8TBR3eoeLNEqN"
  },
  "11": {
-  "price_pol": 50,
+  "price_pol": null,
   "img": "art/mycelium_seed_93480_20261118_115205.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmPM9hQKWaz8qhKu3f3TJPoMQ6CSXRgGrxxGDsH4M2VfXz"
  },
@@ -343,6 +343,41 @@
   "price_pol": 62.5,
   "img": "art/mycelium_seed_112680_20261118_171522.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmbuAzh7S8THPDT8BavJJrsFoEvd69m4x4uDms9BBUzdLU"
+ },
+ "74": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_96000_20261118_123431.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmeS5EReMKf4hsfxccN2rtpfj6sANH7TqtnmhPtYyov3fg"
+ },
+ "75": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_117840_20261121_170128.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmYtUhSpgeHfKActdHHkTi6DT4mZmd4txzq3V6TPxJtPSF"
+ },
+ "76": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_75720_20261118_065259.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmZdkBsWuD4HtKVSVJHLgC2rCDeYCiNVMZDRUiKbB4DvZi"
+ },
+ "77": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_55440_20261117_214447.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmdD8W69zjwXgSVFPTsNqVk4Lba7UzhuW1HLWT7V56fsTn"
+ },
+ "78": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_66960_20261118_042532.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmUdXGFN5iyAvmwLgDwnCRYopQzLVBGtXPnjMKTmPGd2F9"
+ },
+ "79": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_112920_20261118_171924.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmXaaUDwNN75g4yxh1Ah4eVgrPtxzgpeaien9vnG6y3K9g"
+ },
+ "80": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_79680_20261118_075941.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmYBcr7HhzdQKsht7eWvzxjZxN9A5V97XXP1E5FJtQ5Xd9"
  },
  "47": {
   "price_pol": 100.0,
