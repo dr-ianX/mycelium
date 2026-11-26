@@ -85,8 +85,8 @@ a{color:var(--teal)}
     <div class="big" id="nftN">—</div>
     <table id="chain"></table></div>
   <div class="card"><h2>daemons</h2><table id="daemons"></table></div>
-  <div class="card wide" id="suiteCard" style="display:none"><h2>suite · ecosistema local
-    <button class="btn" id="btnSuite" style="float:right">▶ lanzar suite completa</button></h2>
+  <div class="card wide" id="suiteCard" style="display:none"><h2>ecosistema
+    <button class="btn" id="btnSuite" style="float:right">▶ lanzar todo</button></h2>
     <table id="suite"></table></div>
   <div class="card wide"><h2>artefactos recientes</h2><div class="thumbs" id="thumbs"></div></div>
 </div>
@@ -170,11 +170,14 @@ async function suiteTick(){
     if(!r.ok){return}
     const {items}=await r.json();
     document.getElementById('suiteCard').style.display='';
-    document.getElementById('suite').innerHTML=items.map(i=>
-      `<tr><td>${i.url&&i.on?`<a href="${i.url}" target="_blank">${i.label}</a>`:i.label}</td>
+    const row=i=>`<tr><td>${i.url&&i.on?`<a href="${i.url}" target="_blank">${i.label}</a>`:i.label}</td>
        <td class="${i.on?'on':'off'}">${i.on?'ON':'OFF'}</td>
-       <td>${i.on?'':`<button class="btn" onclick="launch('${i.name}',this)">iniciar</button>`}</td></tr>`
-    ).join('');
+       <td>${i.on?'':`<button class="btn" onclick="launch('${i.name}',this)">iniciar</button>`}</td></tr>`;
+    const hdr=t=>`<tr><td colspan="3" style="color:var(--dim);font-size:8.5px;
+      letter-spacing:.25em;padding-top:8px;text-transform:uppercase">${t}</td></tr>`;
+    document.getElementById('suite').innerHTML=
+      hdr('mycelium · arte')+items.filter(i=>i.group==='mycelium').map(row).join('')+
+      hdr('personal · F.L.I.E.')+items.filter(i=>i.group==='personal').map(row).join('');
   }catch(e){}
 }
 async function launch(name,btn){
