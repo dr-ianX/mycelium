@@ -504,6 +504,36 @@
   "img": "art/mycelium_seed_124560_20261123_223945.png",
   "ipfs": "https://gateway.pinata.cloud/ipfs/QmUck4B7W99ArZy7baGbY3FmBuzrQLkNcrvMCMZm9N4waW"
  },
+ "120": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_66120_20261118_041126.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH"
+ },
+ "121": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_106800_20261118_153642.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmT1zs2191VoiYNXKjP3hJZKoUziko82LY4m71iHACHhKt"
+ },
+ "122": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_92760_20261118_113958.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmQ4Em6JRwsveHXs8NvCuHrZsh4qke4PomqDWrpTPJVKzH"
+ },
+ "123": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_57480_20261118_003624.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmWWfRS928Gx969TzdGY2w4Q58xP2a9tZkcZNkCkqZrtH6"
+ },
+ "124": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_90840_20261118_110738.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmXN8rPs7avYEo4LrmhpypTo2AiwUBqnAsZxovZwpyEMCm"
+ },
+ "125": {
+  "price_pol": 62.5,
+  "img": "art/mycelium_seed_96960_20261118_125104.png",
+  "ipfs": "https://gateway.pinata.cloud/ipfs/QmfVsqdh69QvWh823ASTRbiTtdPdru4BmmfFNS9KMkg4uK"
+ },
  "47": {
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmZM35H2vt96Zdycg8VamZbbzN5nzUmsCyEAFeJ5nWco4H",
@@ -588,5 +618,15 @@
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmcEp21E8UyZyeb9azuz8QDhVsgdFsibaTt9b3Vy3dmKno",
   "video": "https://gateway.pinata.cloud/ipfs/QmU3o5GaevWwf6dkB8puhcSD9w31jnnZLzqACsQCZ7h36u"
+ },
+ "126": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmeLjiJ9mRz6tUZufkBBbE8R86odUiPWQp5CtuAUyBHCYn",
+  "video": "https://gateway.pinata.cloud/ipfs/Qmdqk8oBjGQwqeYGPR5E77SBgpadJngrZLxzSe1jgzwhP9"
+ },
+ "127": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmfCC3t8MsTgLo6QMBiF38TDQS7GNGRdfx1MhCLHzvWxF5",
+  "video": "https://gateway.pinata.cloud/ipfs/QmcD73QBdSa7kPzb5ZMeuvVLCt2n1bZEBQuqPwkNgXLChx"
  }
 }
