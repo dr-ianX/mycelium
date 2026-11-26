@@ -708,5 +708,15 @@
   "price_pol": 100.0,
   "img": "https://gateway.pinata.cloud/ipfs/QmNbPzxHrCZFF9CffJMt14SjP4KuXTnoUsMB4RRDHUAjoQ",
   "video": "https://gateway.pinata.cloud/ipfs/QmWNruTZGCeA5UE1WnvYpkLX6Pgzytmj8XxLb1Gmq5MPGs"
+ },
+ "144": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmNf9hNjTXfYo54qTMbbgLsLcjLUiwFJCHg5vVKqcQde5G",
+  "video": "https://gateway.pinata.cloud/ipfs/QmNxqcxe2EFWT9V9NGZD7xYgQyowc5f2nBCyUbtBuwGTxK"
+ },
+ "145": {
+  "price_pol": 100.0,
+  "img": "https://gateway.pinata.cloud/ipfs/QmakDnYUpsY5mvLmcBzzGsmojnpjnmsMYmCbW2q69qZVVd",
+  "video": "https://gateway.pinata.cloud/ipfs/QmcpSuVHX6vFAfPhDaA2PenEUuCwByfT4CAKa8aEXGNWGh"
  }
 }
